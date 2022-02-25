@@ -17,7 +17,7 @@ color: white;
 }
 
 .bg-img{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/digitization-g63091effc_1920.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/background-gb606bed85_1280.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,3 +30,43 @@ color: white;
     margin: 20px;
     width: auto;
   }
+  .bunner{
+    /* width: 90%; */
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    /* padding: 30px 30px; */
+   
+}
+.col-1{
+    flex-basis: 50%;
+	min-width: 100%;
+}
+.col-1 h2{
+        font-size:55px;
+        line-height: 40px;
+        margin: 25px 0;
+        color: white;
+}
+.col-1 p{
+    font-size:25px;
+    line-height: 40px;
+    margin: 35px 0;
+    justify-content: center;
+    color: white;
+}
+.image{
+    /* border-radius: 50%; */
+    /* height: 100vh; */
+    /* background-color: tomato; */
+}
+.image img{
+    height: 50vh;
+    border-radius: 15%;
+margin-bottom: 50px;
+opacity: 0.8;
+
+}
