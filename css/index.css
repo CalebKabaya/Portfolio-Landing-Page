@@ -70,3 +70,10 @@ margin-bottom: 50px;
 opacity: 0.8;
 
 }
+.container-lg{
+    display: flex;
+    margin-top: 60px;
+}
+.col-6{
+    padding: 0 30px;
+}
