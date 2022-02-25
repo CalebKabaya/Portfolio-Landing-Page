@@ -72,7 +72,8 @@ opacity: 0.8;
 }
 .container-lg{
     display: flex;
-    margin-top: 60px;
+    margin-top: 7%;
+    
 }
 .col-6{
     padding: 0 30px;
@@ -93,4 +94,21 @@ opacity: 0.8;
 }
 .items .btn{
     margin-top: 40px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.col-6 h3{
+    /* text-align: center; */
+    font-size: 35px;
+}
+.items h2{
+    padding-bottom: 20px;
+}
+.card .fa{
+    /* border-radius: 100px; */
+    font-size: 60px;
+    /* height: 30vh; */
+    text-align: center;
+    padding: 30px 0;
+
 }
