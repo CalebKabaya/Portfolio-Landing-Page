@@ -76,4 +76,21 @@ opacity: 0.8;
 }
 .col-6{
     padding: 0 30px;
+    line-height: 20px;
+}
+.bars h2{
+    font-size: 20px;
+}
+.bars{
+    padding: 20px 0;
+}
+.progress-bar{
+    color: black;
+}
+.items{
+
+    line-height: 30px;
+}
+.items .btn{
+    margin-top: 40px;
 }
