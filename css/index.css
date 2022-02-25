@@ -1,0 +1,13 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing:  border-box;
+}
+#navbarNav{
+    /* padding: 20px 20px; */
+    /* margin: 20px 20px; */
+}
+.nav-item{
+    padding: 20px;
+    font-size: 20px;
+}
