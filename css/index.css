@@ -274,7 +274,10 @@ h3 {
     width: 100%;
 }
 #socials .fa{
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     flex-direction: column;
+}
+#footers-1{
+    padding-top: 100px;
 }
