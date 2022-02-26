@@ -158,3 +158,39 @@ background-color: tomato;
     width: 100%;
     /* margin: 0px; */
 }
+/* ....testimonial */
+#profile img{
+    width: 15%;
+    /* justify-content: center; */
+    border-radius: 20px;
+}
+.card-img-top{
+    /* text-align: center; */
+}
+.testimonilas{
+    padding: 40px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+}
+.inner-testimonials{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.border{
+    width: 160px;
+    height: 5px;
+    background:black;
+    margin: 26px auto;
+    
+}
+#row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.colums{
+    
+}
