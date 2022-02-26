@@ -145,12 +145,16 @@ background-color: tomato;
 }
 .row .col-3 .btn{
     text-align: center;
-    justify-content: center;
-   width:50%;
+    /* justify-content: center; */
+   /* width:50%; */
    font-size: 20px;
-   margin-top: 10%;
+   margin-top: 8%;
     /* background-color: tomato; */
 }
 .row .col-3 {
     text-align: center;
+}
+.card-footer .btn{
+    width: 100%;
+    /* margin: 0px; */
 }
