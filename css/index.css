@@ -265,3 +265,11 @@ h3 {
     padding-top: 6%;
     padding-bottom: 6%;
 } */
+/* contact */
+.contact h2, p{
+    text-align: center;
+}
+.contact{
+    /* background-color: brown; */
+    width: 100%;
+}
