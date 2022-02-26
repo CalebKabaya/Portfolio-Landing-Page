@@ -143,3 +143,14 @@ background-color: tomato;
 #cont-parallax{
     padding-top: 100px;
 }
+.row .col-3 .btn{
+    text-align: center;
+    justify-content: center;
+   width:50%;
+   font-size: 20px;
+   margin-top: 10%;
+    /* background-color: tomato; */
+}
+.row .col-3 {
+    text-align: center;
+}
