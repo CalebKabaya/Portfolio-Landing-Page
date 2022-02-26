@@ -1,23 +1,26 @@
-*{
-	margin: 0;
-	padding:0;
-	box-sizing:  border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#navbarNav{
+
+#navbarNav {
     /* padding: 20px 20px; */
     /* margin: 20px 20px; */
 }
-.nav-item{
+
+.nav-item {
     padding: 20px;
     font-size: 20px;
     color: white;
 }
-.nav-item a{
-color: white;
+
+.nav-item a {
+    color: white;
 }
 
-.bg-img{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/background-gb606bed85_1280.jpg");
+.bg-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/background-gb606bed85_1280.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,86 +28,103 @@ color: white;
     position: relative;
 
 }
+
 .container {
     position: absolute;
     margin: 20px;
     width: auto;
-  }
-  .bunner{
+}
+
+.bunner {
     /* width: 90%; */
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     /* padding: 30px 30px; */
-   
+
 }
-.col-1{
+
+.col-1 {
     flex-basis: 50%;
-	min-width: 100%;
+    min-width: 100%;
 }
-.col-1 h2{
-        font-size:55px;
-        line-height: 40px;
-        margin: 25px 0;
-        color: white;
+
+.col-1 h2 {
+    font-size: 55px;
+    line-height: 40px;
+    margin: 25px 0;
+    color: white;
 }
-.col-1 p{
-    font-size:25px;
+
+.col-1 p {
+    font-size: 25px;
     line-height: 40px;
     margin: 35px 0;
     justify-content: center;
     color: white;
 }
-.image{
+
+.image {
     /* border-radius: 50%; */
     /* height: 100vh; */
     /* background-color: tomato; */
 }
-.image img{
+
+.image img {
     height: 50vh;
     border-radius: 15%;
-margin-bottom: 50px;
-opacity: 0.8;
+    margin-bottom: 50px;
+    opacity: 0.8;
 
 }
-.container-lg{
+
+.container-lg {
     display: flex;
     margin-top: 7%;
-    
+
 }
-.col-6{
+
+.col-6 {
     padding: 0 30px;
     line-height: 20px;
 }
-.bars h2{
+
+.bars h2 {
     font-size: 20px;
 }
-.bars{
+
+.bars {
     padding: 20px 0;
 }
-.progress-bar{
+
+.progress-bar {
     color: black;
 }
-.items{
+
+.items {
 
     line-height: 30px;
 }
-.items .btn{
+
+.items .btn {
     margin-top: 40px;
     margin-right: 20px;
     font-size: 20px;
 }
-.col-6 h3{
+
+.col-6 h3 {
     /* text-align: center; */
     font-size: 35px;
 }
-.items h2{
+
+.items h2 {
     padding-bottom: 20px;
 }
-.card .fa{
+
+.card .fa {
     /* border-radius: 100px; */
     font-size: 60px;
     /* height: 30vh; */
@@ -112,104 +132,136 @@ opacity: 0.8;
     padding: 30px 0;
 
 }
-#card-content{
+
+#card-content {
     padding-top: 60px;
 }
+
 /* BUNNER */
-.parallax{
+.parallax {
     background-image: url("/images/background-gb606bed85_1280.jpg");
     background-size: 100%;
     background-attachment: fixed;
-    
+
 }
-.parallax-inner{
+
+.parallax-inner {
     padding-top: 6%;
     padding-bottom: 6%;
 }
-#row-parallax h2,h3{
+
+#row-parallax h2,
+h3 {
     color: white;
     font-size: 29px;
     justify-content: space-around;
 }
-#row-parallax{
+
+#row-parallax {
     justify-content: space-around;
     justify-content: space-evenly;
 }
-#row-parallax .col{
-padding-right: 20px;
-width: 100%;
-background-color: tomato;
+
+#row-parallax .col {
+    padding-right: 20px;
+    width: 100%;
+    background-color: tomato;
 }
-#cont-parallax{
+
+#cont-parallax {
     padding-top: 100px;
 }
-.row .col-3 .btn{
+
+.row .col-3 .btn {
     text-align: center;
     /* justify-content: center; */
-   /* width:50%; */
-   font-size: 20px;
-   margin-top: 8%;
+    /* width:50%; */
+    font-size: 20px;
+    margin-top: 8%;
     /* background-color: tomato; */
 }
+
 .row .col-3 {
     text-align: center;
 }
-.card-footer .btn{
+
+.card-footer .btn {
     width: 100%;
     /* margin: 0px; */
 }
+
 /* ....testimonial */
-#profile img{
+#profile img {
     width: 15%;
     /* justify-content: center; */
     border-radius: 20px;
 }
-.card-img-top{
+
+.card-img-top {
     /* text-align: center; */
 }
-.testimonilas{
+
+.testimonilas {
     padding: 40px 0;
     background: #f1f1f1;
+    /* background: #cbcccd; */
     color: #434343;
     text-align: center;
 }
-.inner-testimonials{
+
+.inner-testimonials {
     max-width: 1200px;
     margin: auto;
     overflow: hidden;
     padding: 0 20px;
 }
-.border{
+
+.border {
     width: 160px;
     height: 5px;
-    background:black;
+    background: black;
     margin: 26px auto;
-    
+
 }
-#row{
+
+#row {
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: center;
 }
-.colums{
- flex: 33.33%;
- max-width: 33.33%;
- box-sizing: border-box;
- padding: 15px;
+
+.colums {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
 }
-.testimonial{
-background: #fff;
-padding: 30px;
+
+.testimonial {
+    background: #fff;
+    padding: 30px;
 }
-.testimonial img{
+
+.testimonial img {
     border-radius: 50%;
 }
-.name{
+
+.name {
     font-size: 20px;
     text-transform: uppercase;
     margin: 20px 0;
 }
-.stars{
+
+.stars {
     color: black;
     margin-bottom: 20px;
 }
+/* .container-parallax{
+    background-image: url("/images/pexels-elīna-arāja-3377405.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.inner-parallax{
+    padding-top: 6%;
+    padding-bottom: 6%;
+} */
