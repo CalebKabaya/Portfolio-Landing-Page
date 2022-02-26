@@ -277,7 +277,15 @@ h3 {
     font-size: 25px;
     display: flex;
     flex-direction: column;
+    /* text-align: left; */
+    padding: 20px;
 }
 #footers-1{
     padding-top: 100px;
+}
+.page-footer{
+    /* padding-top: 40px; */
+}
+.icons{
+    display: flex;
 }

@@ -477,8 +477,8 @@
                 </div>
             </div>
             <div class="row" id="footers-1">
-                <div class="col-sm-5">
-                    <div class="card">
+                <div class="col-sm-3">
+                    <div class="card" id="for-icons">
                         <div class="card-body" id="socials">
                             <h5 class="card-title text-center">Let’s Connect</h5>
                             <i class="fa fa-facebook" aria-hidden="true">Facebook</i>
@@ -489,23 +489,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-7">
+                <div class="col-sm-9">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Send Me a Message</h5>
                             <form action="/action_page.php">
                                 <label for="fname">Name:</label><br>
-                                <input type="text" id="fname" value=""size="46"><br><br>
+                                <input type="text" id="fname" value="" size="46"><br><br>
                                 <label for="email">Email:</label><br>
                                 <input type="email" id="email" name="email" size="46"><br><br>
                                 Subject:<br>
                                 <input type="text" name="Course" size="46">
                                 <br><br>
                                 <label for="message">Message:</label><br>
-                                <textarea rows="4" cols="50" name="comment"
-                                    form="usrform"></textarea>
+                                <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
                                 <br><br>
-                                <input type="submit" class="btn btn-dark" value="Submit">
+                                <input type="submit" onclick="myFunction()" class="btn btn-dark" value="Submit">
                             </form>
                         </div>
                     </div>
@@ -515,14 +514,19 @@
         </div>
     </div>
     <!-- Footer -->
-<footer class="page-footer bg-dark text-white font-small blue">
+    <footer class="page-footer bg-dark text-white font-small blue">
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <!-- <a href="https://mdbootstrap.com/"> MDBootstrap.com</a> -->
-    </div>
-  
-  </footer>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <!-- <a href="https://mdbootstrap.com/"> MDBootstrap.com</a> -->
+        </div>
+
+    </footer>
+    <script>
+        function myFunction(){
+            alert("Thank you for contacting me, will get back to you via Email")
+        }
+    </script>
 </body>
 
 </html>
