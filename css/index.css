@@ -115,3 +115,14 @@ opacity: 0.8;
 #card-content{
     padding-top: 60px;
 }
+/* BUNNER */
+.parallax{
+    background-image: url("/images/digitization-g63091effc_1920.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.parallax-inner{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
