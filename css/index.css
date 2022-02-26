@@ -197,3 +197,19 @@ background-color: tomato;
  box-sizing: border-box;
  padding: 15px;
 }
+.testimonial{
+background: #fff;
+padding: 30px;
+}
+.testimonial img{
+    border-radius: 50%;
+}
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.stars{
+    color: black;
+    margin-bottom: 20px;
+}
