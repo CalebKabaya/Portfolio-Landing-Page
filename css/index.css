@@ -188,9 +188,12 @@ background-color: tomato;
 }
 #row{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
 }
 .colums{
-    
+ flex: 33.33%;
+ max-width: 33.33%;
+ box-sizing: border-box;
+ padding: 15px;
 }
