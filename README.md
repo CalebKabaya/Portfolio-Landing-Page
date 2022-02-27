@@ -38,7 +38,7 @@
 
 ## Licence
 
-[LICENSE](#LICENSE)
+[LICENSE](LICENSE)
 
 
 [Go Back to the top](#portfolio)
