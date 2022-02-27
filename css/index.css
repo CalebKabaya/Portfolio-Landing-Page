@@ -196,6 +196,11 @@ h3 {
 #cont-parallax {
     padding-top: 100px;
 }
+.parallax-inner .btn:hover{
+    background: black;
+    border: 1px solid white;
+    color: white;
+}
 /* portfolio */
 #portfolio:hover{
     transform: translateY(-15px);
