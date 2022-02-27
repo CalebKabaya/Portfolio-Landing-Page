@@ -381,9 +381,24 @@ h3 {
     #aboutme{
         display: flex;
         flex-direction: column;
-        /* padding: 20px 70px; */
     }
     #me{
+        width: 100%;
+        padding: 20px 70px;
+    }
+    .title{
+        width: 100%;
+
+    }
+    .one,.two{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 100px;
+
+
+    }
+    .intrest{
         width: 100%;
         padding: 20px 70px;
     }
@@ -391,23 +406,21 @@ h3 {
         padding: 20px 90px;
 
     }
-    #services{
-        /* padding: 20px 100px; */
-    }
-    #portfolio{
-        /* padding: 20px 100px; */
-    }
+   
     #row{
         display: flex;
-        /* flex-wrap: wrap; */
         flex-direction: column;
         width: 100%;
-        /* background-color: tomato; */
         
+    }
+    #row-parallax h2{
+        font-size: 15px;
+    }
+    #row-parallax h3{
+        font-size: 15px;
     }
     .colums{
         width: 100%;
-        /* background-color: green; */
         max-width: 100%;
     }
     #footers-1{
@@ -429,15 +442,32 @@ h3 {
     #messege textarea{
         width: 100%;
     }
+    #hire{
+        width: 70%;
+    }
 
 }
-@media screen and (max-width: 1222px){
-    /* #card-content{
-        width: 90%;
+@media screen and (max-width: 432px){
+    .one,.two{
+        width: 100%;
     }
-    #work{
-        width: 90%;
-
-    } */
+    .intrest h4{
+        width: 100%;
+        font-size: 15px;
+        text-align: left;
+    }
+    #row-parallax h2{
+        font-size: 10px;
+    }
+    #row-parallax h3{
+        font-size: 10px;
+    }
+    #row-parallax .btn{
+        width: 100%;
+        padding: 20px 20px;
+    }
+    #hire{
+        width: 70%;
+    }
 }
 
