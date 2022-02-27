@@ -16,7 +16,7 @@
 }
 
 .nav-item a {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 #nav-a{
     color: #fff;
@@ -329,15 +329,42 @@ h3 {
     padding-top: 20px;
 }
 @media screen and (max-width: 764px){
+    #navbarNav{
+        text-align: center;
+        
+    }
+    .bunner {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    
+    }
+    .col-1 h2{
+        font-size: 20px;
+    }
+    .col-1 p{
+        font-size: 18px;
+    }
     #aboutme{
         display: flex;
         flex-direction: column;
+        /* padding: 20px 70px; */
     }
     #me{
         width: 100%;
+        padding: 20px 70px;
+    }
+    #card-content{
+        padding: 20px 90px;
+
+    }
+    #services{
+        /* padding: 20px 100px; */
     }
     #portfolio{
-        padding: 20px 70px;
+        /* padding: 20px 100px; */
     }
     #row{
         display: flex;
