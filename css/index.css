@@ -233,6 +233,10 @@ h3 {
     width: 15%;
     border-radius: 20px;
 }
+#portfolio img{
+    max-width: fit-content;
+    width: 100%;
+}
 
 
 
@@ -323,5 +327,36 @@ h3 {
 }
 #col-contact{
     padding-top: 20px;
+}
+@media screen and (max-width: 764px){
+    #footers-1{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+    }
+    #for-icn{
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+    #messege{
+        width: 100%;
+    }
+    #messege input{
+        width: 100%;
+    }
+    #messege textarea{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 1222px){
+    /* #card-content{
+        width: 90%;
+    }
+    #work{
+        width: 90%;
+
+    } */
 }
 
