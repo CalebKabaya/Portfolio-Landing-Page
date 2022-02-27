@@ -329,6 +329,18 @@ h3 {
     padding-top: 20px;
 }
 @media screen and (max-width: 764px){
+    #aboutme{
+        display: flex;
+        flex-direction: column;
+    }
+    #me{
+        width: 100%;
+    }
+    .testimonilas{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
     #footers-1{
         flex-wrap: wrap;
         display: flex;
