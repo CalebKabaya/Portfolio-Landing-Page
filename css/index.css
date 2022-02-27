@@ -336,9 +336,12 @@ h3 {
     #me{
         width: 100%;
     }
+    #portfolio{
+        padding: 20px 70px;
+    }
     #row{
         display: flex;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         flex-direction: column;
         width: 100%;
         /* background-color: tomato; */
