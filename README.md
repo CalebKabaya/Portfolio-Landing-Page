@@ -1,7 +1,7 @@
 # Portfolio
 
 ##### By Caleb Mutuku
-### It is a description of my second project at moringa school.
+### It is a description of my first  project in prep at moringa school.
 
 ## Table of Content
 
@@ -13,7 +13,7 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p>This is a website that provides much details about the product and services offered at the insurance company and even the contact dtails about the business.</p>
+<p>This is a website  which is a porfolio about me , it provides much detail about my career and my proffesiona background and the services tha i offer. also provides sample projects that i have previously worked on.</p>
 
 ## Installation
 
