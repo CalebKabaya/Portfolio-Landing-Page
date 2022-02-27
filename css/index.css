@@ -205,7 +205,12 @@
     background-attachment: fixed;
 
 }
+#cont-parallax{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
 
+}
 .parallax-inner {
     padding-top: 6%;
     padding-bottom: 6%;
