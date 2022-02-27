@@ -136,6 +136,20 @@
 #card-content {
     padding-top: 60px;
 }
+/* services */
+#card-services{
+    border:  1px solid black; 
+
+}
+#services{
+    padding: 10px 10px;
+}
+#services:hover{
+    transform: translateY(-15px);
+     transition: transfom.3s;
+     background-color: #252b42;
+     padding: 3px 3px;
+}
 
 /* BUNNER */
 .parallax {
@@ -187,24 +201,18 @@ h3 {
 
 .card-footer .btn {
     width: 100%;
-    /* margin: 0px; */
 }
 
-/* ....testimonial */
 #profile img {
     width: 15%;
-    /* justify-content: center; */
     border-radius: 20px;
 }
 
-.card-img-top {
-    /* text-align: center; */
-}
+
 
 .testimonilas {
     padding: 40px 0;
     background: #f1f1f1;
-    /* background: #cbcccd; */
     color: #434343;
     text-align: center;
 }
@@ -226,7 +234,6 @@ h3 {
 
 #row {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: center;
 }
 
@@ -256,36 +263,23 @@ h3 {
     color: black;
     margin-bottom: 20px;
 }
-/* .container-parallax{
-    background-image: url("/images/pexels-elīna-arāja-3377405.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
-}
-.inner-parallax{
-    padding-top: 6%;
-    padding-bottom: 6%;
-} */
-/* contact */
+
 .contact h2, p{
     text-align: center;
 }
 .contact{
-    /* background-color: brown; */
     width: 100%;
 }
 #socials .fa{
     font-size: 25px;
     display: flex;
     flex-direction: column;
-    /* text-align: left; */
     padding: 20px;
 }
 #footers-1{
     padding-top: 100px;
 }
-.page-footer{
-    /* padding-top: 40px; */
-}
+
 .icons{
     display: flex;
 }
