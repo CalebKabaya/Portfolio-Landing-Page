@@ -18,6 +18,10 @@
 .nav-item a {
     color: white;
 }
+#nav-a{
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;}
 
 .bg-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/background-gb606bed85_1280.jpg");
@@ -286,7 +290,7 @@ h3 {
     padding: 20px;
 }
 #footers-1{
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .icons{
