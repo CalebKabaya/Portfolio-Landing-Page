@@ -196,11 +196,8 @@ h3 {
 
 .row .col-3 .btn {
     text-align: center;
-    /* justify-content: center; */
-    /* width:50%; */
     font-size: 20px;
     margin-top: 8%;
-    /* background-color: tomato; */
 }
 
 .row .col-3 {
@@ -250,6 +247,10 @@ h3 {
     max-width: 33.33%;
     box-sizing: border-box;
     padding: 15px;
+}
+.colums:hover{
+    transform: translateY(-15px);
+    transition: transform.3s;
 }
 
 .testimonial {
