@@ -112,6 +112,9 @@
 
     line-height: 30px;
 }
+.items p{
+    text-align: left;
+}
 
 .items .btn {
     margin-top: 40px;
