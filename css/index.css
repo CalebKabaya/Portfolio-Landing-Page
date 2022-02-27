@@ -152,6 +152,30 @@
 #card-content {
     padding-top: 60px;
 }
+/* hobbies&intrest */
+.title{
+    width: 100%;
+}
+.title h2{
+    text-align: center;
+}
+.intrest{
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: green; */
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+}
 /* services */
 #card-services{
     border:  1px solid black; 
