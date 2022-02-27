@@ -121,6 +121,10 @@
     margin-right: 20px;
     font-size: 20px;
 }
+.items .btn:hover{
+    background-color: #fff;
+    color: black;
+}
 
 .col-6 h3 {
     /* text-align: center; */
