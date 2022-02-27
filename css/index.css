@@ -26,7 +26,7 @@ body{
     font-family: 'Lobster', cursive;}
 
 .bg-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/hover\ in\ css.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/hover\ in\ css.png");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -202,7 +202,7 @@ body{
 
 /* BUNNER */
 .parallax {
-    background-image: url("/images/background-gb606bed85_1280.jpg");
+    background-image: url("../images/background-gb606bed85_1280.jpg");
     background-size: 100%;
     background-attachment: fixed;
 
