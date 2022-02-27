@@ -24,7 +24,7 @@
     font-family: 'Lobster', cursive;}
 
 .bg-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/background-gb606bed85_1280.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/hover\ in\ css.png");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -169,9 +169,10 @@
     border-radius: 5px;
 }
 .intrest:hover{
-    background-color: black;
+    background-color: rgb(56, 55, 55);
     color: white;
     transition: 2s;
+    cursor: pointer;
 }
 .one{
     display: flex;
