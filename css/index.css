@@ -292,3 +292,15 @@ h3 {
 .icons{
     display: flex;
 }
+#contact{
+    background:#f1f1f1;
+
+}
+#contact:hover{
+    transform: translateY(-15px);
+    transition: transform.3s;
+}
+#col-contact{
+    padding-top: 20px;
+}
+
