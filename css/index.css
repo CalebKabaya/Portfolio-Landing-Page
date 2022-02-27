@@ -336,10 +336,18 @@ h3 {
     #me{
         width: 100%;
     }
-    .testimonilas{
+    #row{
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
+        width: 100%;
+        /* background-color: tomato; */
+        
+    }
+    .colums{
+        width: 100%;
+        /* background-color: green; */
+        max-width: 100%;
     }
     #footers-1{
         flex-wrap: wrap;
