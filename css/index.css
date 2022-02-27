@@ -185,6 +185,14 @@ h3 {
 #cont-parallax {
     padding-top: 100px;
 }
+/* portfolio */
+#portfolio:hover{
+    transform: translateY(-15px);
+    transition: transfom.3s; 
+    border: 1px solid black;
+    background-color: black;
+    padding: 3px 3px;
+}
 
 .row .col-3 .btn {
     text-align: center;
